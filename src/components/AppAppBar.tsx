@@ -10,6 +10,7 @@ import Divider from '@mui/material/Divider';
 import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
+import Link from "@mui/material/Link";
 
 
 import Sitemark from './SitemarkIcon';
@@ -164,23 +165,23 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   </IconButton>
                 </Box>*/}
                 <Divider sx={{ my: 3 }} />
-                <MenuItem href={"/#intro"} onClick={() => window.location.replace('#intro')}>
-                  Home
+                <MenuItem>
+                  <Link href={"/"} onClick={() => window.location.replace('#intro')}>Home</Link>
                 </MenuItem>
-                <MenuItem href={"/#highlights"} onClick={() => window.location.replace('#highlights')}>
-                  Highlights
+                <MenuItem>
+                  <Link href={"/#highlights"} onClick={() => window.location.replace('#highlights')}>Highlights</Link>
                 </MenuItem>
-                <MenuItem href={"/#features"} onClick={() => window.location.replace('#features')}>
-                  Features
+                <MenuItem>
+                  <Link href={"/#features"} onClick={() => window.location.replace('#features')}>Features</Link>
                 </MenuItem>
-                <MenuItem href={"/#benefits"} onClick={() => window.location.replace('#benefits')}>
-                  Benefits
+                <MenuItem>
+                  <Link href={"/#benefits"} onClick={() => window.location.replace('#benefits')}>Benefits</Link>
                 </MenuItem>
-                <MenuItem href={"/#sectors"} onClick={() => window.location.replace('#sectors')}>
-                  Sectors
+                <MenuItem>
+                  <Link href={"/#sectors"} onClick={() => window.location.replace('#sectors')}>Sectors</Link>
                 </MenuItem>
-                <MenuItem href={"/ContactUs"}>
-                  Contact Us
+                <MenuItem>
+                  <Link href={"/ContactUs"}>Contact Us</Link>
                 </MenuItem>
                 {/*<MenuItem>
                   <Button color="primary" variant="contained" fullWidth>
@@ -188,7 +189,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   </Button>
                 </MenuItem>*/}
                 <MenuItem>
-                  <Button href={"/SignIn"} color="primary" variant="outlined" fullWidth>
+                  <Button href={"/SignIn"} color="info" variant="outlined" fullWidth>
                     Sign in
                   </Button>
                 </MenuItem>
