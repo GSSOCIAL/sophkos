@@ -32,9 +32,9 @@ const items = [
   },
   {
     icon: <DatasetLinkedIcon fontSize={"large"}/>,
-    title: 'Securely request and receive documents',
+    title: 'AML Solutions',
     description:
-      'Automated AML checks and screening against required databases, with fuzzy logic in 41 languages. AI driven keywords search in transactions and supporting documents.',
+      'Automated AML checks and screening against required databases, with fuzzy logic in 42 languages. AI driven keywords search in transactions and supporting documents.',
   },
 ];
 
@@ -79,10 +79,11 @@ export default function Highlights() {
               >
                 <Box sx={{ opacity: '50%'}}>{item.icon}</Box>
                 <div>
-                  <Typography gutterBottom sx={{ fontWeight: 'medium' }}>
+                  <Typography component="h2" variant="h5" gutterBottom sx={{ fontWeight: 'medium' }}>
                     {item.title}
                   </Typography>
-                  <Typography variant="body2" sx={{ color: 'grey.400' }}>
+                    <br/>
+                  <Typography component="h2" variant="h6" sx={{ color: 'grey.400' }}>
                     {item.description}
                   </Typography>
                 </div>

@@ -3,13 +3,14 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { useTheme } from '@mui/system';
+import Link from "@mui/material/Link";
 
-export default function Intro() {
+export default function Contacts() {
   const theme = useTheme();
   
   return (
         <Box
-              id="intro" sx={{
+              id="contacts" sx={{
           pt: { xs: 4, sm: 15 },
           pb: { xs: 8, sm: 30 },
           color: 'white',
@@ -31,12 +32,21 @@ export default function Intro() {
                   }}
             >
                 <Typography component="h2" variant="h3" sx={{ color: 'text.secondary' }}>
-                    Sophkos provides AI-driven onboarding and transaction monitoring solutions
+                    Contacts
                 </Typography><br/><br/>
-              <Typography component="h2" variant="h5" sx={{ color: 'text.secondary' }}>
-                  APIs, SDKs, IOS and Android applications that will make it smooth and easy fully compliant with your local law,
-                  legislation, and regulation onboarding, transaction monitoring, and secure communication with your clients.
-              </Typography>
+                <Typography component="h2" variant="h5" sx={{ color: 'text.secondary', textAlign: { sm: 'left', md: 'left' } }}>
+                    SophKos Ltd
+                </Typography>
+                
+                <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2, color: 'text.secondary', textAlign: { sm: 'left', md: 'left' } }}>
+                    Office Address
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2, textAlign: { sm: 'left', md: 'left' }}}>
+                    No.5, 17/F, Strand 50, 50 Bonham Strand, Sheung Wan, Hong Kong
+                </Typography>
+                <Typography component="h2" variant="h5" sx={{ color: 'text.secondary', textAlign: { sm: 'left', md: 'left' } }}>
+                <Link href={"/ContactUs"}>Contact Us</Link>
+                </Typography>
             </Box>
           </Container>
         </Box>

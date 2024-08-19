@@ -121,9 +121,10 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                     variant="text"
                     color="info"
                     size="small"
-                    href={"/ContactUs"}
+                    href={"/#contacts"}
+                    onClick={() => window.location.replace('#contacts')}
               >
-                Contact Us
+                Contacts
               </Button>
             </Box>
           </Box>
@@ -181,7 +182,7 @@ export default function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   <Link href={"/#sectors"} onClick={() => window.location.replace('#sectors')}>Sectors</Link>
                 </MenuItem>
                 <MenuItem>
-                  <Link href={"/ContactUs"}>Contact Us</Link>
+                  <Link href={"/#contacts"} onClick={() => window.location.replace('#contacts')}>Contacts</Link>
                 </MenuItem>
                 {/*<MenuItem>
                   <Button color="primary" variant="contained" fullWidth>

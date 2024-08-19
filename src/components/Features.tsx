@@ -35,6 +35,7 @@ export default function Features() {
                 <Typography component="h2" variant="h3" sx={{ color: 'text.secondary' }}>
                     Features
                 </Typography>
+                <br/>
                 
                 <Grid container spacing={3} sx={{
                     textAlign: { sm: 'left', md: 'left' },
@@ -43,7 +44,7 @@ export default function Features() {
                         <img src={"/features.webp"} width={"100%"}/>
                     </Grid>
                     <Grid item xs={8}>
-                        <Typography component="h2" variant="subtitle1" sx={{ color: 'text.secondary' }}>
+                        <Typography component="h2" variant="h5" sx={{ color: 'text.secondary' }}>
                             Sophkos solutions allow to identify, authenticate, and monitor a retail or a business client’s transactions everywhere in the world automatically without using expensive special hardware. Compliance personnel require minimum training for customers and business onboarding and transaction monitoring.  Sophkos solutions provide perfect secure entry points, storage, and processing of personal and confidential information for financial institutions.
                         </Typography>
                     </Grid>

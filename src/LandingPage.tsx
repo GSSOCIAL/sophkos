@@ -21,6 +21,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import getLPTheme from './getLPTheme';
 import ContactUs from "./components/ContactUs";
+import Contacts from "./components/Contacts";
 import {useLocation} from "react-router-dom";
 import {useEffect} from "react";
 
@@ -110,6 +111,8 @@ export default function LandingPage() {
           <Divider/>
           <LogoCollection/>
           <Divider/>
+            <Contacts/>
+            <Divider/>
         <Footer />
       </Box>
     

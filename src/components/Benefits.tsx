@@ -39,7 +39,7 @@ export default function Benefits() {
                     Benefits
                 </Typography>
                 
-                <Typography component="h2" variant="subtitle1">
+                <Typography component="h2" variant="h5">
                     <List dense={false} >
                         <ListItem>
                             <ListItemIcon><DoneIcon fontSize={"small"} sx={{ color: 'common.white' }}/></ListItemIcon>

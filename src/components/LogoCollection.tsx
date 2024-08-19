@@ -30,6 +30,7 @@ export default function LogoCollection() {
       >
         Partners and clients
       </Typography>
+    <br/>
       <Grid container sx={{ justifyContent: 'center', mt: 0.5 }}>
         {logos.map((logo, index) => (
           <Grid item key={index}>
@@ -37,6 +38,7 @@ export default function LogoCollection() {
           </Grid>
         ))}
       </Grid>
+      
     </Box>
   );
 }
