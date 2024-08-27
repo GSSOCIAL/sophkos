@@ -34,8 +34,8 @@ export default function Intro() {
                     Sophkos provides AI-driven onboarding and transaction monitoring solutions
                 </Typography><br/><br/>
               <Typography component="h2" variant="h5" sx={{ color: 'text.secondary' }}>
-                  APIs, SDKs, IOS and Android applications that will make it smooth and easy fully compliant with your local law,
-                  legislation, and regulation onboarding, transaction monitoring, and secure communication with your clients.
+                  APIs, SDKs, IOS and Android applications that will make it smooth, easy and fully compliant with your local law,
+                  legislation, and regulation, onboarding, transaction monitoring, and secure communication with your clients.
               </Typography>
             </Box>
           </Container>

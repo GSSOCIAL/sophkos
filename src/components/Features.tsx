@@ -45,7 +45,7 @@ export default function Features() {
                     </Grid>
                     <Grid item xs={8}>
                         <Typography component="h2" variant="h5" sx={{ color: 'text.secondary' }}>
-                            Sophkos solutions allow to identify, authenticate, and monitor a retail or a business client’s transactions everywhere in the world automatically without using expensive special hardware. Compliance personnel require minimum training for customers and business onboarding as well as transaction monitoring.  Sophkos solutions provide perfect secure entry points, storage, and processing of personal and confidential information for financial institutions.
+                            SophKos solutions allow to identify, authenticate, and monitor a retail or a business client’s transactions everywhere in the world, automatically without using expensive special hardware. Compliance personnel require minimum training for customers and business onboarding as well as transaction monitoring.  Sophkos solutions provide perfect secure entry points, storage, and processing of personal and confidential information for financial institutions.
                         </Typography>
                     </Grid>
                 </Grid>

@@ -9,7 +9,7 @@ import Link from "@mui/material/Link";
 const logos = [
     {
         logo: <SpringwoodIcon/>,
-        link: 'https://www.digidoe.com/',
+        link: 'https://springwood-capital.com/',
     },
     {
         logo: <DDIcon/>,

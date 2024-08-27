@@ -22,13 +22,13 @@ const items = [
     icon: <CameraFrontIcon fontSize={"large"}/>,
     title: 'Camera',
     description:
-      'Show the passport front, the MRZ area of the ID Card, bank statement, utility bill, or a bank statement to your camera. Make a selfie with automatic liveness test.',
+      'Show the passport front, the MRZ area of the ID Card, bank statement, utility bill, or a bank statements to your camera. Make a selfie with automatic liveness test.',
   },
   {
     icon: <NfcIcon fontSize={"large"}/>,
     title: 'Use NFC',
     description:
-      'The data is received by scanning NFC chip on your ID. Get biometric photo and more information with chip reading and compares with available databases and selfie.',
+      'The data is received by scanning NFC chip on your ID. Get a biometric photo and more information with chip reading and compares with available databases and selfie.',
   },
   {
     icon: <DatasetLinkedIcon fontSize={"large"}/>,
